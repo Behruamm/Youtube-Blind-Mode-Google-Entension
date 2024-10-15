@@ -29,5 +29,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 For questions or feedback, reach out to me:
-- **Email**: behram95623@.com
+- **Email**: behram95623@gmail.com
 - **GitHub**: [Behruamm](https://github.com/Behruamm)
