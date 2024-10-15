@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Hide YouTube Views & Likes",
+  "version": "1.0",
+  "description": "Hides view counts and like counts on YouTube videos.",
+  "permissions": [
+    "activeTab"
+    
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.youtube.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "styles.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "icon-16.png",
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  }
+}
